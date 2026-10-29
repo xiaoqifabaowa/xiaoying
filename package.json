@@ -1,0 +1,10 @@
+{
+  "name": "xiaoying-format-tools",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"frontend/src/**/*.{ts,tsx,css}\" \"frontend/*.ts\" \"frontend/tests/*.ts\" \"data/*.json\""
+  },
+  "devDependencies": {
+    "prettier": "3.6"
+  }
+}

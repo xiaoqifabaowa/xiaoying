@@ -1,0 +1,15 @@
+{
+  "status": "incomplete",
+  "answer": "无法回答报销期限问题，因为检索工具暂时不可用，无法获取相关制度文档。",
+  "claims": [],
+  "citations": [],
+  "conflicts": [],
+  "knowledge_gaps": [],
+  "clarification": null,
+  "stop_reason": "tool_failure",
+  "mode": "live",
+  "dataset_version": "1619c6b9399ef8b3",
+  "steps": 5,
+  "tool_calls": 3,
+  "evidence": []
+}

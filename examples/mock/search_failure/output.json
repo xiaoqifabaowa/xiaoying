@@ -1,0 +1,17 @@
+{
+  "status": "incomplete",
+  "answer": "工具调用失败，无法核验相关原文，请稍后重试。",
+  "claims": [],
+  "citations": [],
+  "conflicts": [],
+  "knowledge_gaps": [
+    "缺少可核验的原文"
+  ],
+  "clarification": null,
+  "stop_reason": "incomplete",
+  "mode": "mock",
+  "dataset_version": "1619c6b9399ef8b3",
+  "steps": 3,
+  "tool_calls": 1,
+  "evidence": []
+}

@@ -1,0 +1,38 @@
+name: Verify offline flows
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: pip install -r requirements.lock.txt && pip install --no-deps -e .
+      - run: python -m pytest -q --junitxml=examples/test-results/pytest.xml
+      - run: python scripts/evaluate.py --mode mock --force
+      - run: npm ci && npm run build && npx playwright install --with-deps chromium
+        working-directory: frontend
+      - name: Start local server
+        run: |
+          python -m uvicorn enterprise_qa.api:app --host 127.0.0.1 --port 8000 > /tmp/xiaoying-server.log 2>&1 &
+          for i in $(seq 1 30); do curl -fsS http://127.0.0.1:8000/api/health && break || sleep 1; done
+      - run: npm run test:e2e
+        working-directory: frontend
+        env:
+          PLAYWRIGHT_CHANNEL: chromium
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-results
+          path: |
+            examples/test-results/
+            examples/mock/report.json
+            examples/screenshots/

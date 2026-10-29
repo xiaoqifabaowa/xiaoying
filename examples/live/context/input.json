@@ -1,0 +1,15 @@
+{
+  "question": "那需要准备哪些材料？",
+  "history": [
+    {
+      "role": "user",
+      "content": "报销期限多久？"
+    },
+    {
+      "role": "assistant",
+      "content": "根据《费用报销管理制度》（D01），员工应在费用发生后 30 天内提交报销申请。"
+    }
+  ],
+  "scenario": "context",
+  "mode": "live"
+}

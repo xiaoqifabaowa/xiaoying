@@ -1,0 +1,43 @@
+{
+  "status": "insufficient_evidence",
+  "answer": "当前规则未覆盖试用期员工，不能套用正式员工的额度。",
+  "claims": [],
+  "citations": [],
+  "conflicts": [],
+  "knowledge_gaps": [
+    "试用期远程办公制度"
+  ],
+  "clarification": null,
+  "stop_reason": "insufficient_evidence",
+  "mode": "mock",
+  "dataset_version": "1619c6b9399ef8b3",
+  "steps": 4,
+  "tool_calls": 2,
+  "evidence": [
+    {
+      "doc_id": "D05",
+      "title": "远程办公申请规则",
+      "version_date": "2026-02-01",
+      "scope": "总部正式员工",
+      "effective_from": null,
+      "effective_to": null,
+      "supersedes": [],
+      "content": "总部正式员工每周最多可申请 2 天远程办公，需提前 1 个工作日获得直属主管批准。\n试用期员工的远程办公安排未包含在本规则中。",
+      "content_hash": "a02d4df656935ef0d38b70ca918340c91119d59141c06a542eedfd10fa693a61",
+      "chunks": [
+        {
+          "chunk_id": "D05:1",
+          "text": "总部正式员工每周最多可申请 2 天远程办公，需提前 1 个工作日获得直属主管批准。",
+          "start": 0,
+          "end": 41
+        },
+        {
+          "chunk_id": "D05:2",
+          "text": "试用期员工的远程办公安排未包含在本规则中。",
+          "start": 42,
+          "end": 63
+        }
+      ]
+    }
+  ]
+}

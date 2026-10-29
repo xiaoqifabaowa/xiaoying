@@ -1,0 +1,17 @@
+{
+  "status": "incomplete",
+  "answer": "执行预算已耗尽，任务未完成。",
+  "claims": [],
+  "citations": [],
+  "conflicts": [],
+  "knowledge_gaps": [
+    "本次任务未完成，请参考已有证据和执行记录。"
+  ],
+  "clarification": null,
+  "stop_reason": "BUDGET_EXHAUSTED",
+  "mode": "mock",
+  "dataset_version": "1619c6b9399ef8b3",
+  "steps": 1,
+  "tool_calls": 1,
+  "evidence": []
+}

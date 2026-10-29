@@ -1,0 +1,17 @@
+{
+  "status": "insufficient_evidence",
+  "answer": "当前资料未提供该问题的依据。",
+  "claims": [],
+  "citations": [],
+  "conflicts": [],
+  "knowledge_gaps": [
+    "需要相关制度资料"
+  ],
+  "clarification": null,
+  "stop_reason": "insufficient_evidence",
+  "mode": "mock",
+  "dataset_version": "1619c6b9399ef8b3",
+  "steps": 3,
+  "tool_calls": 1,
+  "evidence": []
+}

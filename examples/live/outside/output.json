@@ -1,0 +1,17 @@
+{
+  "status": "insufficient_evidence",
+  "answer": "资料库中没有找到关于公司今年年终奖发放月数的政策或规定，无法回答。",
+  "claims": [],
+  "citations": [],
+  "conflicts": [],
+  "knowledge_gaps": [
+    "资料库中未检索到年终奖发放月数的相关文档"
+  ],
+  "clarification": null,
+  "stop_reason": "no_relevant_documents",
+  "mode": "live",
+  "dataset_version": "1619c6b9399ef8b3",
+  "steps": 5,
+  "tool_calls": 3,
+  "evidence": []
+}

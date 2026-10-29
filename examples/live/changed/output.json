@@ -1,0 +1,61 @@
+{
+  "status": "answered",
+  "answer": "根据《费用报销管理制度》（D01），员工应在费用发生后 45 天内提交报销申请。",
+  "claims": [
+    {
+      "text": "员工应在费用发生后 45 天内提交报销申请。",
+      "citation_indices": [
+        0
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "doc_id": "D01",
+      "version_date": "2026-10-01",
+      "chunk_id": "D01:1",
+      "quote": "报销提交期限：员工应在费用发生后 45 天内提交报销申请。"
+    }
+  ],
+  "conflicts": [],
+  "knowledge_gaps": [],
+  "clarification": null,
+  "stop_reason": "已获得充分依据",
+  "mode": "live",
+  "dataset_version": "c763c118f7eda549",
+  "steps": 4,
+  "tool_calls": 2,
+  "evidence": [
+    {
+      "doc_id": "D01",
+      "title": "费用报销管理制度",
+      "version_date": "2026-10-01",
+      "scope": null,
+      "effective_from": null,
+      "effective_to": null,
+      "supersedes": [],
+      "content": "报销提交期限：员工应在费用发生后 45 天内提交报销申请。\n报销材料：提交有效发票、费用明细和直属主管审批记录。\n本资料未注明适用部门、地区或与其他制度的优先关系。",
+      "content_hash": "3cd1602245496a0504b2e162ee7e15f4b9a3bbf128a57c3fc9ff6939d74954fa",
+      "chunks": [
+        {
+          "chunk_id": "D01:1",
+          "text": "报销提交期限：员工应在费用发生后 45 天内提交报销申请。",
+          "start": 0,
+          "end": 29
+        },
+        {
+          "chunk_id": "D01:2",
+          "text": "报销材料：提交有效发票、费用明细和直属主管审批记录。",
+          "start": 30,
+          "end": 56
+        },
+        {
+          "chunk_id": "D01:3",
+          "text": "本资料未注明适用部门、地区或与其他制度的优先关系。",
+          "start": 57,
+          "end": 82
+        }
+      ]
+    }
+  ]
+}

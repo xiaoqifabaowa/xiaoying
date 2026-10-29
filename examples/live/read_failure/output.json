@@ -1,0 +1,17 @@
+{
+  "status": "incomplete",
+  "answer": "无法确认报销期限。检索到文档《费用报销管理制度》（D01）可能包含相关信息，但读取工具连续失败，无法验证原文内容。",
+  "claims": [],
+  "citations": [],
+  "conflicts": [],
+  "knowledge_gaps": [
+    "无法读取文档 D01 的原文，无法确认报销期限的具体规定。"
+  ],
+  "clarification": null,
+  "stop_reason": "工具故障导致无法验证检索结果",
+  "mode": "live",
+  "dataset_version": "1619c6b9399ef8b3",
+  "steps": 6,
+  "tool_calls": 4,
+  "evidence": []
+}
